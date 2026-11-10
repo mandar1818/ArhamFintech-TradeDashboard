@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+
+# Environment & Local Data
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+*.sqlite
+*.sqlite3
+backend/data/
+
+# Node / Frontend / Build Artifacts
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.vite/
+*.tsbuildinfo
+*.local
+
+# Logs, Backups & Temporary / IDE Files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
