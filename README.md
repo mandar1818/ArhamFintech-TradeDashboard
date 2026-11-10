@@ -52,8 +52,6 @@ ArhamFintech-TradeDashboard/
 ├── .gitignore
 ├── Architecture.md
 ├── README.md
-├── VIDEO_WALKTHROUGH.md
-├── SUBMISSION_CHECKLIST.md
 ├── backend/
 │   ├── .env.example
 │   ├── pytest.ini
